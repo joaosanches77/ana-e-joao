@@ -1,5 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { useEffect, useState } from "react";
+import monogram from "@/assets/ja-monogram.png.asset.json";
 
 export const Route = createFileRoute("/")({
   component: Wedding,
