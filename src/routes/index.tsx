@@ -325,8 +325,13 @@ function Wedding() {
         style={{ backgroundColor: "var(--rifle)", color: "#F5F3EF" }}
       >
         <div className="mx-auto max-w-2xl">
-          <div className="w-16 h-16 mx-auto mb-6 rounded-full border border-white/40 flex items-center justify-center">
-            <span className="font-serif italic text-xl">JA</span>
+          <div className="mx-auto mb-6 flex items-center justify-center">
+            <img
+              src={monogram.url}
+              alt="Monograma JA"
+              className="h-16 w-auto"
+              style={{ filter: "brightness(0) invert(1)", opacity: 0.9 }}
+            />
           </div>
           <p className="uppercase text-xs tracking-[0.4em] opacity-80">Dúvidas?</p>
           <h3 className="font-serif text-4xl md:text-5xl italic mt-4">Fale connosco</h3>
