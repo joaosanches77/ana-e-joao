@@ -305,9 +305,7 @@ function Wedding() {
             {GALLERY.map((src, i) => (
               <div
                 key={src}
-                className={`reveal overflow-hidden bg-[color:var(--grullo)] ${
-                  i === 0 || i === 4 ? "row-span-2 aspect-[3/4]" : "aspect-square"
-                }`}
+                className="reveal overflow-hidden bg-[color:var(--grullo)] aspect-square"
               >
                 <img
                   src={src}
