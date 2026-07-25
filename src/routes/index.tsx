@@ -17,13 +17,13 @@ const NAV = [
 ];
 
 const GALLERY = [
-  "/logo.png",
+  "/1.jpg",
   "/2.JPG",
-  "/3.HEIC",
+  "/3.jpg",
   "/4.PNG",
   "/5.JPG",
   "/6.JPG",
-  "/7.HEIC",
+  "/7.jpg",
   "/8.JPG",
   "/9.jpg",
 ];
