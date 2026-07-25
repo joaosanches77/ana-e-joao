@@ -126,7 +126,7 @@ function Wedding() {
       {/* HERO */}
       <section
         id="inicio"
-        className="relative min-h-screen flex items-center justify-center px-6 pt-24 overflow-hidden"
+        className="relative min-h-screen flex items-center justify-center px-6 pt-24"
         style={{
           background:
             "linear-gradient(180deg, #DDDBD7 0%, #E8E5DE 60%, #DDDBD7 100%)",
@@ -139,29 +139,6 @@ function Wedding() {
           style={{
             backgroundImage:
               "radial-gradient(circle at 20% 30%, #53583E 0%, transparent 40%), radial-gradient(circle at 80% 70%, #593B1F 0%, transparent 40%)",
-          }}
-        />
-
-        {/* Folhas na lateral esquerda */}
-        <div 
-          className="absolute left-0 top-0 bottom-0 w-32 md:w-64 pointer-events-none opacity-[0.35] mix-blend-multiply"
-          style={{
-            backgroundImage: "url('/leaves-vertical.png')",
-            backgroundSize: "contain",
-            backgroundRepeat: "repeat-y",
-            backgroundPosition: "left top",
-          }}
-        />
-        
-        {/* Folhas na lateral direita */}
-        <div 
-          className="absolute right-0 top-0 bottom-0 w-32 md:w-64 pointer-events-none opacity-[0.35] mix-blend-multiply"
-          style={{
-            backgroundImage: "url('/leaves-vertical.png')",
-            backgroundSize: "contain",
-            backgroundRepeat: "repeat-y",
-            backgroundPosition: "left top", // We mirror it so we keep left top and scaleX(-1)
-            transform: "scaleX(-1)",
           }}
         />
         <div className="relative text-center reveal">
