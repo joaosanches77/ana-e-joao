@@ -17,12 +17,15 @@ const NAV = [
 ];
 
 const GALLERY = [
-  "https://images.unsplash.com/photo-1519741497674-611481863552?w=900&auto=format&fit=crop",
-  "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?w=900&auto=format&fit=crop",
-  "https://images.unsplash.com/photo-1525258946800-98cfd641d0de?w=900&auto=format&fit=crop",
-  "https://images.unsplash.com/photo-1465495976277-4387d4b0e4a6?w=900&auto=format&fit=crop",
-  "https://images.unsplash.com/photo-1519225421980-715cb0215aed?w=900&auto=format&fit=crop",
-  "https://images.unsplash.com/photo-1470905906913-3f8471a03c0e?w=900&auto=format&fit=crop",
+  "1.png",
+  "2.png",
+  "3.png",
+  "4.png",
+  "5.png",
+  "6.png",
+  "7.png",
+  "8.png",
+  "9.png",
 ];
 
 const TIMELINE = [
