@@ -286,8 +286,8 @@ function Wedding() {
             </InfoBlock>
             <InfoBlock title="Alojamento">
               <ul className="space-y-4">
-                <HotelItem name="Hotel Placeholder I" note="A 10 min da Quinta" />
-                <HotelItem name="Hotel Placeholder II" note="Centro de Aveiro" />
+                <HotelItem name="Hotel Feira Pedra Bela" note="A 15 min da Quinta" />
+                <HotelItem name="Hotel Afonso V & SPA" note="Centro de Aveiro" />
               </ul>
             </InfoBlock>
           </div>
