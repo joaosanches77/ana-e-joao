@@ -141,7 +141,7 @@ function Wedding() {
         <div className="relative text-center reveal">
           {/* Monogram */}
           <div className="mx-auto mb-8 flex items-center justify-center">
-            <img src={monogram.url} alt="Monograma JA" className="h-28 md:h-32 w-auto" />
+            <img src={monogram.url} alt="Monograma JA" className="h-20 md:h-24 w-auto" />
           </div>
 
           <p className="uppercase text-xs tracking-[0.4em] text-[color:var(--rifle)] mb-6">
