@@ -10,7 +10,7 @@ const NAV = [
   { id: "inicio", label: "Início" },
   { id: "localizacoes", label: "Localizações" },
   { id: "horario", label: "Horário" },
-  { id: "rsvp", label: "RSVP" },
+  { id: "rsvp", label: "Confirmação" },
   { id: "info", label: "Informações" },
   { id: "galeria", label: "Galeria" },
   { id: "contactos", label: "Contactos" },
