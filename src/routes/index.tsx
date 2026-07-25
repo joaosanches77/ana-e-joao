@@ -17,15 +17,15 @@ const NAV = [
 ];
 
 const GALLERY = [
-  "1.png",
-  "2.png",
-  "3.png",
-  "4.png",
-  "5.png",
-  "6.png",
-  "7.png",
-  "8.png",
-  "9.png",
+  "/1.heic",
+  "/2.JPG",
+  "/3.HEIC",
+  "/4.PNG",
+  "/5.JPG",
+  "/6.JPG",
+  "/7.HEIC",
+  "/8.JPG",
+  "/9.jpg",
 ];
 
 const TIMELINE = [
