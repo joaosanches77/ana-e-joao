@@ -80,7 +80,7 @@ function Wedding() {
             className="flex items-center"
             aria-label="Início"
           >
-            <img src={monogram.url} alt="JA" className="h-9 w-auto" />
+            <img src="/logo.png" alt="JA" className="h-9 w-auto" />
           </button>
           <nav className="hidden md:flex items-center gap-8 text-xs uppercase tracking-[0.2em] text-[color:var(--darkbrown)]">
             {NAV.map((n) => (
@@ -141,7 +141,7 @@ function Wedding() {
         <div className="relative text-center reveal">
           {/* Monogram */}
           <div className="mx-auto mb-8 flex items-center justify-center">
-            <img src={monogram.url} alt="Monograma JA" className="h-20 md:h-24 w-auto" />
+            <img src="/logo.png" alt="Monograma JA" className="h-20 md:h-24 w-auto" />
           </div>
 
           <p className="uppercase text-xs tracking-[0.4em] text-[color:var(--rifle)] mb-6">
@@ -327,7 +327,7 @@ function Wedding() {
         <div className="mx-auto max-w-2xl">
           <div className="mx-auto mb-6 flex items-center justify-center">
             <img
-              src={monogram.url}
+              src="/logo.png"
               alt="Monograma JA"
               className="h-16 w-auto"
               style={{ filter: "brightness(0) invert(1)", opacity: 0.9 }}
