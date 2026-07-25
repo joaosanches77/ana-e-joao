@@ -229,14 +229,13 @@ function Wedding() {
         </div>
       </section>
 
-      {/* RSVP */}
+      {/* CONFIRMAÇÃO */}
       <section
         id="rsvp"
-        className="py-24 md:py-32 px-6"
-        style={{ backgroundColor: "var(--grullo)" }}
+        className="py-24 md:py-32 px-6 bg-[color:var(--timberwolf)]"
       >
         <div className="mx-auto max-w-2xl text-center">
-          <SectionTitle eyebrow="Confirmação" title="RSVP" light />
+          <SectionTitle eyebrow="Presença" title="Confirmação" />
           <p className="mt-6 text-[color:var(--darkbrown)]/85 font-light">
             Agradecemos a sua confirmação até ao dia 04 de Junho de 2027.
           </p>
