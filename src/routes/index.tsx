@@ -77,10 +77,10 @@ function Wedding() {
         <div className="mx-auto max-w-6xl px-6 flex items-center justify-between">
           <button
             onClick={() => scrollTo("inicio")}
-            className="font-serif italic text-xl tracking-widest text-[color:var(--rifle)]"
+            className="flex items-center"
             aria-label="Início"
           >
-            J<span className="mx-0.5">·</span>A
+            <img src={monogram.url} alt="JA" className="h-9 w-auto" />
           </button>
           <nav className="hidden md:flex items-center gap-8 text-xs uppercase tracking-[0.2em] text-[color:var(--darkbrown)]">
             {NAV.map((n) => (
