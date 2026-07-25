@@ -17,7 +17,7 @@ const NAV = [
 ];
 
 const GALLERY = [
-  "/1.heic",
+  "/logo.png",
   "/2.JPG",
   "/3.HEIC",
   "/4.PNG",
