@@ -1,5 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { useEffect, useState } from "react";
+import monogram from "@/assets/ja-monogram.png.asset.json";
 
 export const Route = createFileRoute("/")({
   component: Wedding,
@@ -9,7 +10,7 @@ const NAV = [
   { id: "inicio", label: "Início" },
   { id: "localizacoes", label: "Localizações" },
   { id: "horario", label: "Horário" },
-  { id: "rsvp", label: "RSVP" },
+  { id: "rsvp", label: "Confirmação" },
   { id: "info", label: "Informações" },
   { id: "galeria", label: "Galeria" },
   { id: "contactos", label: "Contactos" },
@@ -76,10 +77,10 @@ function Wedding() {
         <div className="mx-auto max-w-6xl px-6 flex items-center justify-between">
           <button
             onClick={() => scrollTo("inicio")}
-            className="font-serif italic text-xl tracking-widest text-[color:var(--rifle)]"
+            className="flex items-center"
             aria-label="Início"
           >
-            J<span className="mx-0.5">·</span>A
+            <img src={monogram.url} alt="JA" className="h-9 w-auto" />
           </button>
           <nav className="hidden md:flex items-center gap-8 text-xs uppercase tracking-[0.2em] text-[color:var(--darkbrown)]">
             {NAV.map((n) => (
@@ -140,11 +141,7 @@ function Wedding() {
         <div className="relative text-center reveal">
           {/* Monogram */}
           <div className="mx-auto mb-8 flex items-center justify-center">
-            <div className="w-24 h-24 rounded-full border border-[color:var(--rifle)] flex items-center justify-center">
-              <span className="font-serif italic text-3xl text-[color:var(--rifle)] tracking-wider">
-                JA
-              </span>
-            </div>
+            <img src={monogram.url} alt="Monograma JA" className="h-28 md:h-32 w-auto" />
           </div>
 
           <p className="uppercase text-xs tracking-[0.4em] text-[color:var(--rifle)] mb-6">
@@ -232,14 +229,13 @@ function Wedding() {
         </div>
       </section>
 
-      {/* RSVP */}
+      {/* CONFIRMAÇÃO */}
       <section
         id="rsvp"
-        className="py-24 md:py-32 px-6"
-        style={{ backgroundColor: "var(--grullo)" }}
+        className="py-24 md:py-32 px-6 bg-[color:var(--timberwolf)]"
       >
         <div className="mx-auto max-w-2xl text-center">
-          <SectionTitle eyebrow="Confirmação" title="RSVP" light />
+          <SectionTitle eyebrow="Presença" title="Confirmação" />
           <p className="mt-6 text-[color:var(--darkbrown)]/85 font-light">
             Agradecemos a sua confirmação até ao dia 04 de Junho de 2027.
           </p>
@@ -329,8 +325,13 @@ function Wedding() {
         style={{ backgroundColor: "var(--rifle)", color: "#F5F3EF" }}
       >
         <div className="mx-auto max-w-2xl">
-          <div className="w-16 h-16 mx-auto mb-6 rounded-full border border-white/40 flex items-center justify-center">
-            <span className="font-serif italic text-xl">JA</span>
+          <div className="mx-auto mb-6 flex items-center justify-center">
+            <img
+              src={monogram.url}
+              alt="Monograma JA"
+              className="h-16 w-auto"
+              style={{ filter: "brightness(0) invert(1)", opacity: 0.9 }}
+            />
           </div>
           <p className="uppercase text-xs tracking-[0.4em] opacity-80">Dúvidas?</p>
           <h3 className="font-serif text-4xl md:text-5xl italic mt-4">Fale connosco</h3>
