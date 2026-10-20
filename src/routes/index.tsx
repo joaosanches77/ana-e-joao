@@ -244,7 +244,7 @@ function Wedding() {
           </p>
 
           <form
-            action="https://formspree.io/f/YOUR_FORM_ID"
+            action="https://formspree.io/f/xoejolyv"
             method="POST"
             className="mt-12 grid gap-5 text-left reveal"
           >
