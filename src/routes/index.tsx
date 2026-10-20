@@ -253,7 +253,7 @@ function Wedding() {
               label="Nº de adultos e crianças"
               name="convidados"
               type="text"
-              placeholder="Ex: 2 adultos, 1 criança"
+              placeholder="Ex: 2 adultos, 1 criança (Idade: ..)"
               required
             />
             <div>
